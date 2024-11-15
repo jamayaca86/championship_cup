@@ -1,0 +1,10 @@
+db.resultados.insertOne([
+  {
+    "total_goles": null,
+    "total_tarjetas": 
+     {
+      "amarillas": null,
+      "rojas": null,
+     }
+  }
+]);

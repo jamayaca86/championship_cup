@@ -1,0 +1,11 @@
+db.patrocinadores.insertMany([
+  {
+    "nombre": "Condimentos El Rey",
+    "Ciudad": "Bogotá"
+  },
+  {
+    "nombre": "Saeta",
+    "Ciudad": "Bogotá"
+  }
+
+]);

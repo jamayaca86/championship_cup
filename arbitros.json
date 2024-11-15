@@ -1,0 +1,12 @@
+db.arbitros.insertMany([
+  {
+    "nombre": "Carlos Sánchez",
+    "experiencia": 5, 
+    "partidos_arbitrados": 0
+  },
+  {
+    "nombre": "José Rodríguez",
+    "experiencia": 10,
+    "partidos_arbitrados": 0
+  }
+]);

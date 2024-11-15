@@ -1,0 +1,50 @@
+db.partidos.insertMany([
+  { 
+    "equipo_local": ObjectId("673692a99d6409a0c60d8190"),  
+    "equipo_visitante": ObjectId("673694dc9d6409a0c60d8191"),  
+    "fecha": new Date("2024-11-10T18:00:00Z"),  
+    "arbitro_id": ObjectId("67369be79d6409a0c60d81a8"),  
+    "estado": "por jugar",  
+    "resultado": null,  
+    "estadisticas": {
+      "tarjetas_amarillas_local": 0,
+      "tarjetas_amarillas_visitante": 0,
+      "tarjetas_rojas_local": 0,
+      "tarjetas_rojas_visitante": 0,
+      "goles_local": 0,
+      "goles_visitante": 0
+    }
+  },
+  {
+    "equipo_local": ObjectId("673694fb9d6409a0c60d8192"),  
+    "equipo_visitante": ObjectId("673695189d6409a0c60d8193"),  
+    "fecha": new Date("2024-11-11T18:00:00Z"),  
+    "arbitro_id": ObjectId("67369be79d6409a0c60d81a9"),  
+    "estado": "por jugar",  
+    "resultado": null,  
+    "estadisticas": {
+      "tarjetas_amarillas_local": 0,
+      "tarjetas_amarillas_visitante": 0,
+      "tarjetas_rojas_local": 0,
+      "tarjetas_rojas_visitante": 0,
+      "goles_local": 0,
+      "goles_visitante": 0
+    }
+  },
+    {
+    "equipo_local": null,  
+    "equipo_visitante": null,  
+    "fecha": new Date("2024-11-12T18:00:00Z"),  
+    "arbitro_id": null,  
+    "estado": "por jugar",  
+    "resultado": null,  
+    "estadisticas": {
+      "tarjetas_amarillas_local": 0,
+      "tarjetas_amarillas_visitante": 0,
+      "tarjetas_rojas_local": 0,
+      "tarjetas_rojas_visitante": 0,
+      "goles_local": 0,
+      "goles_visitante": 0
+    }
+  }
+]);

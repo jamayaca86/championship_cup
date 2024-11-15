@@ -1,0 +1,48 @@
+db.equipos.insertOne({
+  "nombre": "Los Motilones FC",
+  "ciudad": "El carmen",
+  "jugadores": [
+    { "nombre": "Jorge Mosquito","numero": 9 },
+    { "nombre": "Leider Preciado","numero": 1 },
+    { "nombre": "Carlos Renteria","numero": 2 },
+    { "nombre": "Pedrito Rey","numero": 8 },
+    { "nombre": "Colling bay","numero": 7 }
+  ]
+});
+
+db.equipos.insertOne({
+  "nombre": "Los Cancerberos FC",
+  "ciudad": "Bogotá",
+  "jugadores": [
+    { "nombre": "Juan Cardona","numero": 4 },
+    { "nombre": "Victor Garcia","numero": 11 },
+    { "nombre": "Carlos Renterial","numero": 2 },
+    { "nombre": "Mano manito","numero": 8 },
+    { "nombre": "Rey Sullivan","numero": 7 }
+
+  ]
+});
+
+db.equipos.insertOne({
+  "nombre": "Los Pedas FC",
+  "ciudad": "Medellin",
+  "jugadores": [
+    { "nombre": "Pedro Franco","numero": 1 },
+    { "nombre": "James Rodriguez","numero": 3 },
+    { "nombre": "David Ospina","numero": 10 },
+    { "nombre": "Luis Muriel","numero": 5 },
+    { "nombre": "Richard Rios","numero": 13 }
+  ]
+});
+
+db.equipos.insertOne({
+  "nombre": "Los Mariachi FC",
+  "ciudad": "Medellin",
+  "jugadores": [
+    { "nombre": "Pedro Fernandez","numero": 6 },
+    { "nombre": "Charrito Negro","numero": 1 },
+    { "nombre": "Elvis Cocho","numero": 2 },
+    { "nombre": "Nurio Moncada","numero": 50 },
+    { "nombre": "Luis Cambito","numero": 99 }
+  ]
+});
